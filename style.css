@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,600;1,300&family=Passions+Conflict&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 98.9vw;
+}
+header{
+    height: 100%;
+    width: 100%;
+    font-family:  sans-serif;
+    background-image: url(https://img.freepik.com/premium-vector/background-white-elegant-texture_23-2148438404.jpg?w=1060);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    
+}
+nav{
+    height: 9%;
+    width: 100%;
+    padding: 0 8vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav-so li{
+    margin: 0 4px;
+}
+.menu-icon{
+    display: none;
+}
+nav ul li h4{
+    margin-right: 8vh;
+    font-size: 22px;
+}
+nav ul li a {
+    margin: 0 15px;
+    text-decoration: none;
+    color:black;
+}
+nav ul li a i{
+    position: relative;
+    top: 4px ;
+    left: 0;
+}
+.ri-search-line{
+    margin-left: 20px;
+}
+nav ul li button{
+    padding: 7px 18px;
+    font-size: 12px;
+    background-color: black;
+    color: #fff;
+}
+.header-info{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 18vw;
+}
+.header-info h1{
+    font-size: 5vw;
+    word-spacing: 15px;
+    margin-bottom: 10px;
+    z-index: 2;
+}
+.header-info h2{
+    font-size: 3vw;
+    margin-bottom: 10px;
+    color:rgb(144, 34, 255) ;
+}
+.header-info p{
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: #5f5f5f;
+}
+.contacts-row{
+    display: flex;
+}
+.contact-row2{
+    display: flex;
+}
+.contacts{
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 10px;
+    
+}
+.contacts p{
+    font-size: 14px;
+}
+.cv{
+    padding: 10px 25px;
+    margin-right: 10px;
+    font-size: 15px;
+    border-radius: 3px;
+    background: linear-gradient( to bottom right,rgb(145, 175, 245),rgba(36, 48, 223, 0.616),rgb(171, 57, 228) );
+    border: none;
+    color: #fff;
+}
+.bg-photo-shp{
+    height: 600px;
+    width: 550px;
+    /* border-radius: 33% 69% 73% 30% /40% 50% 51% 42%; */
+    /* border-radius: 53% 26% 31% 69% / 39% 25% 36% 56% ; */
+    border-radius: 33% 26% 22% 72% / 29% 25% 36% 79% ;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    background: linear-gradient(rgb(16, 83, 238),rgb(224, 100, 243),rgb(212, 70, 255)) ;
+    overflow: hidden;
+    /* z-index: -1; */
+}
+.bg-photo-shp img{
+    width: 490px;
+    position: relative;
+    top: -70px;
+    left: 65px;
+}
+.shide-black-bg{
+    height: 400px;
+    width: 400px;
+    /* border-radius:0% 100% 56% 45% /43% 66% 37% 55% ; */
+    border-radius: 0% 100% 19% 78% / 100% 73% 25% 0% ;
+    background-image: url(https://img.freepik.com/free-vector/black-desktop-background-geometric-pattern-design-vector_53876-140229.jpg?w=1060&t=st=1673871533~exp=1673872133~hmac=dac7e95c7155d7079094c3f12385e0744f388afeefa7901c5d6069c9403b9af8);
+    background-repeat: no-repeat ;
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    top: 46%;
+    left: -13.5%;
+}
+.header-work-info{
+    height: 6.5%;
+    width: 100%;
+    padding: 0 22% 0 10%;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-work-info-col{
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(241, 239, 239);
+    box-shadow: 2px 2px 50px rgb(168, 167, 167);
+    padding: 5px 18px ;
+}
+.header-work-info-col div h4{
+    margin-top: 4px;
+}
+.header-work-info-row{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 4px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 80%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(https://img.freepik.com/premium-vector/background-white-elegant-texture_23-2148438404.jpg?w=1060);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    
+}
+.container-photo{
+    height: 100%;
+    width: 50%;
+    padding: 2% 0 0 15%;
+}
+.container-bhoto-bg{
+    height: 500px;
+    width: 400px;
+    border-radius: 57% 60% 59% 38% / 47% 74% 36% 67% ;
+    background:  linear-gradient(rgb(16, 83, 238),rgb(224, 100, 243),rgb(212, 70, 255)) ;
+    overflow: hidden;
+}
+.container-bhoto-bg img{
+    height: 750px;
+    position: relative;
+    top: -45px;
+    left: 0px;
+}
+.container-info{
+    height: 100%;
+    width: 50%;
+    padding: 10% 0 0 150px ;
+}
+.container-info h4{
+    font-size: 25px;
+}
+.container-info p{
+    font-size: 15px;
+    margin-top: 14px;
+}
+.container-info h6 {
+    font-size: 18px;
+    margin-top: 25px;
+}
+.so-contact{
+    display: flex;
+}
+.so{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.so i{
+    margin-top: 10px;
+}
+.one{
+    color: rgb(29, 103, 182);
+}
+.two{
+    color: rgb(221, 29, 29);
+}
+.three{
+    color: rgb(10, 10, 133);
+}
+footer{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(https://img.freepik.com/premium-vector/background-white-elegant-texture_23-2148438404.jpg?w=1060);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: cover;
+
+}
+.footer-info h5{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.footer-info p{
+    font-size: 12px;
+    color: rgb(119, 119, 119);
+    margin-bottom: 15px;
+}
+.rating-row{
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.rating-row2{
+    margin: 10px 0;
+    display: flex;
+}
+.yellow{
+    height: 3px;
+    width: 250px;
+    background-color: rgb(243, 219, 32);
+}
+.white{
+    height: 3px;
+    width: 60px;
+    background-color: rgb(209, 206, 206);
+}
+.footer-icon{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+.footer-icons{
+    height: 120px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgb(210, 209, 209);
+    margin: 10px 10px;
+}
+.footer-icons div{
+    height: 50px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:1150px){
+    nav ul li a{
+        margin: 0 7px;
+    }
+    nav ul li h4{
+        margin-right: 2vh;
+    }
+    .ig{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    
+    .bg-photo-shp{
+        height: 45vh;
+        width: 40vw;
+    }
+    .bg-photo-shp img{
+        width: 30vw;
+    }
+    .header-work-info{
+        padding: 0;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-photo{
+        width: 98vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-info{
+        width: 98vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container-info{
+        padding: 0;
+    }
+
+}
+@media screen and (max-width:850px){
+    .header-info{
+        width: 50vw;
+        height: 40vh;
+        padding-left: 20px;
+    }
+    .bg-photo-shp{
+        height: 300px;
+        width: 280px;
+        top: 15%;
+    }
+    .bg-photo-shp img{
+        width: 30vw;
+    }
+    .shide-black-bg{
+        height: 150px;
+        width: 200px;
+        top: 35%;
+    }
+    .work{
+        display: none;
+    }
+    header{
+        height: 60%;
+    }
+    .container-info{
+        padding: 0;
+    }
+}
+@media screen and (max-width:650px){
+    nav{
+        padding: 0 15px;
+    }
+    .bg-photo-shp{
+        height: 250px;
+        width: 280px;
+        top: 15%;
+    }
+    .bg-photo-shp img{
+        width: 30vw;
+        top: -5%;
+        
+    }
+    .header-info h1{
+        font-size: 40px;
+        word-spacing: 10px;
+    }
+    .header-info h1{
+        font-size: 20px;
+    }
+    .header-info p{
+        font-size: 10px;
+    }
+    .contact-row2 button{
+        padding: 5px 10px;
+    }
+    .shide-black-bg{
+        height: 100px;
+        width: 150px;
+    }
+    .container-info{
+        padding: 0;
+    }
+}
